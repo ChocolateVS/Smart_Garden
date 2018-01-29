@@ -1,0 +1,109 @@
+h1 {
+    font-size: 2vw;
+	color: white;
+	text-align:center;
+	position:relative;
+	font-family:verdana;
+	height:100%;
+	margin-top:4%;
+}
+
+#contacth1 {
+color: white;
+position:relative;
+text-align:left;
+font-size:4vw;
+font-family:verdana;
+height:100%;
+}
+#contacth2 {
+color: white;
+position:relative;
+text-align:left;
+font-size:2vw;
+font-family:verdana;
+height:100%;
+}
+h1 a {
+color:white;
+font-family:verdana;
+height:100%;
+}
+nav a {
+	font-size:1.3vw;
+	font-family:verdana;
+}
+.btn {
+color:white;
+font-family:verdana;
+}
+li a:hover {
+	color: green;
+	background-color: 555;
+}
+li {
+	display: inline;
+	font-family:verdana;
+	text-decoration: none;
+}
+
+ul {
+	padding: 1%;
+	background-color: green;
+	border: 1% solid green;
+	font-family:verdana;
+}
+
+
+header {
+background-color:none;
+width:99%;
+font-family:verdana;
+} 
+footer {
+background-color:black;
+color: white;
+font-size: 1vw;
+font-family:verdana;
+width:99%;
+font-family:verdana;
+}
+main {
+	background-color:#007f7f7f;
+	position:relative;
+	width:99%;
+	height:100%;
+	min-height: 100%;
+	margin:auto;
+	padding:0px;
+	border: 0px;
+    background-size: cover;
+  	background-position: left top;
+  	background-repeat: no-repeat;
+  	background-attachment: fixed;
+	margin-left:0.1%;
+	font-family:verdana;
+}
+a.footer{
+	display: inline;
+	border: 1%; 
+	font-size: 1vw; 
+	color:white;
+    text-decoration: none;	
+	font-family:verdana;
+	}
+#bg { 
+
+    /* Full height */
+    height:100%; 
+	width:100%;
+
+    /* Center and scale the image nicely */
+    background-size: cover;
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#bannerimg {
+width:100%;
+}
