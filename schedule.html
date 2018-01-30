@@ -21,16 +21,16 @@
 <header>
     <img src="assets/images/banner.jpg" id="bannerimg" />
 	<nav id="nav">
-     <ul>
-      <li> <a href='index.html'>Home</a> </li>
-	  <li> <a href="graph.html">Login</a> </li>  
-	  <li> <a href="graph.html">Register</a> </li>
-	  <li> <a href="meet.html">Meeting's</a> </li> 
-	  <li> <a href="electronics.html">Electronics</a> </li> 
-      <li> <a href="schedule.html">To be done/Schedule</a> </li> 	  
-	  <li> <a href="graph.html">Graphs</a> </li>  
-      <li> <a href="about.html">About Us</a> </li> 
-      <li> <a href="contact.html">Contact</a> </li> 
+     <ul class="headerul">
+      <li class="headerli"> <a href='index.html'>Home</a> </li>
+	  <li class="headerli"> <a href="graph.html">Login</a> </li>  
+	  <li class="headerli"> <a href="graph.html">Register</a> </li>
+	  <li class="headerli"> <a href="meet.html">Meeting's</a> </li> 
+	  <li class="headerli"> <a href="electronics.html">Electronics</a> </li> 
+      <li class="headerli"> <a href="schedule.html">To be done/Schedule</a> </li> 	  
+	  <li class="headerli"> <a href="graph.html">Graphs</a> </li>  
+      <li class="headerli"> <a href="about.html">About Us</a> </li> 
+      <li class="headerli"> <a href="contact.html">Contact</a> </li> 
 	 </ul>  
 	</nav>
  </header>
@@ -40,14 +40,16 @@
 	<button type="button" class="addtask" onclick="addtask()">Add Task</button><br>
 	<button type="button" class="removetask" onclick="removetask()">Remove Task</button>
 	<script>
+	addtask() {
+	}
 	</script>
-	<h2>
-	- These are Just examples...<br>
-	- Make Green House <br>
-	- Plant Veges <br>
-	- Fix Watering Irrigation <br>
-	- Make and use sensors <br> 
-	</h2>
+	<ul class="scheduleul"> 
+	  <li class="scheduleli">These are Just examples...</li>
+      <li class="scheduleli">Make Green House</li> 
+	  <li class="scheduleli">Plant Veges</li> 
+	  <li class="scheduleli">Fix Watering Irrigation</li> 
+	  <li class="scheduleli">Make and use sensors</li>  
+	</ul>
  </main>
 
 </body>	 

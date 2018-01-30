@@ -77,16 +77,27 @@ li a:hover {
 	color: green;
 	background-color: ffffff;
 }
-li {
+li.headerli {
 	display: inline;
 	font-family:verdana;
 	text-decoration: none;
 }
 
-ul {
+ul.headerul {
 	padding: 1%;
 	background-color: green;
 	border: 1% solid green;
+	font-family:verdana;
+}
+li.scheduleli {
+	font-family:verdana;
+	text-decoration: none;
+	font-size:1.6vw;
+	color:white;
+}
+
+ul.scheduleul {
+	background-color: none;
 	font-family:verdana;
 }
 
